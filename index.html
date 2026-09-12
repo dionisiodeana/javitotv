@@ -2,233 +2,261 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+<title>JAVITOTV</title>
 
-    <title>Javitotv</title>
+<style>
 
-    <style>
+* {
+    box-sizing: border-box;
+}
 
-        * {
-            box-sizing: border-box;
-        }
+body {
+    margin: 0;
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-        body {
-            margin: 0;
-            padding: 0;
-            background: #0f0f0f;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+header {
+    background: #181818;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 4px solid #ff7a00;
+}
 
-        header {
-            background: #181818;
-            padding: 30px;
-            text-align: center;
-            border-bottom: 3px solid #ff7a00;
-        }
+header h1 {
+    margin: 0;
+    font-size: 44px;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 42px;
-        }
+header p {
+    color: #bbbbbb;
+    font-size: 20px;
+    margin-bottom: 0;
+}
 
-        header p {
-            margin-top: 10px;
-            color: #bbbbbb;
-            font-size: 20px;
-        }
+main {
+    padding: 30px;
+}
 
-        .seccion {
-            padding: 30px;
-        }
+h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
-        .seccion h2 {
-            font-size: 28px;
-            margin-bottom: 20px;
-        }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
 
-        .grid {
-            display: grid;
-            grid-template-columns:
-                repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
+.app {
+    background: #202020;
+    border: 2px solid #333333;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+}
 
-        .app {
-            background: #1d1d1d;
-            border: 2px solid #333333;
-            border-radius: 15px;
-            padding: 25px;
-            text-align: center;
-        }
+.app h3 {
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
 
-        .app h3 {
-            font-size: 24px;
-            margin-top: 5px;
-            margin-bottom: 20px;
-        }
+.boton {
+    display: block;
+    background: #ff7a00;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
 
-        .boton {
-            display: block;
-            background: #ff7a00;
-            color: white;
-            text-decoration: none;
-            padding: 16px;
-            border-radius: 10px;
-            font-size: 20px;
-            font-weight: bold;
-        }
+.boton:hover,
+.boton:focus {
+    background: white;
+    color: black;
+    outline: 5px solid #ff7a00;
+    transform: scale(1.05);
+}
 
-        .boton:hover {
-            background: #ffffff;
-            color: #000000;
-        }
+footer {
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    background: #181818;
+    color: #888888;
+}
 
-        .boton:focus {
-            background: #ffffff;
-            color: #000000;
-            outline: 5px solid #ff7a00;
-            transform: scale(1.05);
-        }
-
-        footer {
-            margin-top: 30px;
-            padding: 30px;
-            background: #181818;
-            color: #888888;
-            text-align: center;
-            font-size: 16px;
-        }
-
-    </style>
+</style>
 
 </head>
 
 <body>
 
-    <header>
+<header>
 
-        <h1>🔥 JAVITOTV</h1>
+<h1>🔥 JAVITOTV</h1>
 
-        <p>
-            Biblioteca de aplicaciones para
-            Fire TV y Android TV
-        </p>
+<p>
+Biblioteca de aplicaciones para Fire TV y Android TV
+</p>
 
-    </header>
+</header>
 
-
-    <section class="seccion">
-
-        <h2>📺 TV e IPTV</h2>
-
-        <div class="grid">
-
-            <div class="app">
-                <h3>Sparkle TV</h3>
-                <a class="boton" <a href="sparkle_107018.apk">INSTALAR</a>
-            </div>
-
-            <div class="app">
-                <h3>XCIPTV</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-            <div class="app">
-                <h3>TiviMate</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-            <div class="app">
-                <h3>IPTV Smarters</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-        </div>
-
-    </section>
+<main>
 
 
-    <section class="seccion">
+<h2>📺 TV EN DIRECTO</h2>
 
-        <h2>🎬 Multimedia</h2>
-
-        <div class="grid">
-
-            <div class="app">
-                <h3>VLC</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-            <div class="app">
-                <h3>Kodi</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-            <div class="app">
-                <h3>MX Player</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-        </div>
-
-    </section>
+<div class="grid">
 
 
-    <section class="seccion">
+<div class="app">
 
-        <h2>🛠️ Utilidades</h2>
+<h3>TDT Spain</h3>
 
-        <div class="grid">
+<a class="boton"
+href="TDTSpain.apk">
+INSTALAR
+</a>
 
-            <div class="app">
-                <h3>Downloader</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-            <div class="app">
-                <h3>Analiti</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-            <div class="app">
-                <h3>Send Files to TV</h3>
-                <a class="boton" href="#">
-                    INSTALAR
-                </a>
-            </div>
-
-        </div>
-
-    </section>
+</div>
 
 
-    <footer>
+<div class="app">
 
-        JAVITOTV · Biblioteca Fire TV y Android TV
+<h3>FCTV33</h3>
 
-    </footer>
+<a class="boton"
+href="FCTV33-v3.0.320.apk">
+INSTALAR
+</a>
+
+</div>
+
+
+<div class="app">
+
+<h3>RB Live 77</h3>
+
+<a class="boton"
+href="rblive77.apk">
+INSTALAR
+</a>
+
+</div>
+
+
+<div class="app">
+
+<h3>Zerda Live</h3>
+
+<a class="boton"
+href="ZERDA_LIVE_1_2025.apk">
+INSTALAR
+</a>
+
+</div>
+
+
+<div class="app">
+
+<h3>CRICFy</h3>
+
+<a class="boton"
+href="CRICFy_v6.8_new.apk">
+INSTALAR
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<h2>📡 IPTV</h2>
+
+<div class="grid">
+
+
+<div class="app">
+
+<h3>Sparkle TV</h3>
+
+<a class="boton"
+href="sparkle_107018.apk">
+INSTALAR
+</a>
+
+</div>
+
+
+<div class="app">
+
+<h3>TiviMate</h3>
+
+<a class="boton"
+href="tivimate.apk">
+INSTALAR
+</a>
+
+</div>
+
+
+<div class="app">
+
+<h3>IBO Player</h3>
+
+<a class="boton"
+href="IBO%20Player%20recomendado%20king.apk">
+INSTALAR
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<h2>🎬 MULTIMEDIA</h2>
+
+<div class="grid">
+
+
+<div class="app">
+
+<h3>StreamVault</h3>
+
+<a class="boton"
+href="StreamVault.apk">
+INSTALAR
+</a>
+
+</div>
+
+
+</div>
+
+
+</main>
+
+
+<footer>
+
+JAVITOTV · Fire TV & Android TV
+
+</footer>
+
 
 </body>
 
